@@ -1,8 +1,11 @@
 body {
-  background-color: beige;
+  background-image: url("./images/avsig2.JPG");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1 {
-  color: blue;
+  color: white;
 }
 p {
   color: black;
@@ -27,4 +30,18 @@ p {
 
 .active {
   background-color: #4CAF50;
+}
+
+p.one {
+  height: 100px;
+  width: 500px;
+  position: absolute;
+  left: 65%;
+  margin-left: -50px;
+  top: 60%;
+  margin-top: -50px;
+  text-align: center;
+  opacity: .6;
+  font-weight: bold;
+
 }
