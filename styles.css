@@ -1,7 +1,8 @@
 body {
-  background-image: url("./images/avsig2.JPG");
-  background-color: white;
-  background-repeat: no-repeat;
+  background: url("./images/avsig3.JPG") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 h1 {
