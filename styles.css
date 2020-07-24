@@ -1,5 +1,5 @@
 body {
-  background: url("./images/avsig3.JPG") no-repeat center center fixed;
+  background: url("./images/avninosig.JPG") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -33,16 +33,52 @@ p {
   background-color: #4CAF50;
 }
 
+
+
 p.one {
   height: 100px;
   width: 500px;
   position: absolute;
   left: 65%;
   margin-left: -50px;
-  top: 60%;
+  top: 55%;
   margin-top: -50px;
   text-align: center;
   opacity: .6;
   font-weight: bold;
+
+}
+
+p.sig {
+  position: absolute;
+  left: 6%;
+  top: 35%;
+  text-align: center;
+
+}
+
+@media screen and (max-width: 600px) {
+  p.one {
+    height: 100px;
+      width: 500px;
+      position: absolute;
+      left: 10%;
+      margin-left: -50px;
+      top: 98%;
+      margin-top: -50px;
+      text-align: center;
+      opacity: 1;
+      font-weight: bold;
+  }
+
+  p.sig {
+    position: absolute;
+    left: 5%;
+    top: 1%;
+    width:50%
+    height:50%
+    text-align: center;
+
+  }
 
 }
