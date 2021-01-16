@@ -1,15 +1,19 @@
 body {
-  background: url("./images/IMG_2044.JPG") no-repeat center center fixed;
+  background: url("./images/bench2.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 h1 {
-  color: white;
-}
-p {
   color: black;
+  font-size: 50px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+h3 {
+  color: black;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .icon-bar {
   width: 90px;
@@ -33,52 +37,36 @@ p {
   background-color: #4CAF50;
 }
 
-
-
-p.one {
+div.one {
   height: 100px;
   width: 500px;
   position: absolute;
-  left: 35%;
-  margin-left: -50px;
-  top: 50%;
-  margin-top: -50px;
+  top: 25%;
+  right: 10%;
   text-align: center;
   opacity: .6;
   font-weight: bold;
+}
+
+div.text-block {
+  background-color: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  color: white;
+    width: 500px;
+    height: 200px;
+}
+
+sig.sig {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 500px;
 
 }
 
-p.sig {
-  position: absolute;
-  left: 32%;
-  top: 10%;
-  text-align: center;
 
-}
-
-@media only screen and (max-width: 768px) {
-  p.one {
-    height: 100px;
-      width: 500px;
-      position: absolute;
-      left: 10%;
-      margin-left: -50px;
-      top: 41%;
-      margin-top: -50px;
-      text-align: center;
-      opacity: .6;
-      font-weight: bold;
-  }
-
-  p.sig {
-    position: absolute;
-    left: 5%;
-    top: 1%;
-    width:50%
-    height:50%
-    text-align: center;
-
-  }
 
 }
