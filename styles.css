@@ -67,6 +67,28 @@ sig.sig {
 
 }
 
+@media only screen and (max-width: 768px) {
+  div.one {
+    height: 100px;
+      width: 500px;
+      position: absolute;
+      left: 10%;
+      margin-left: -50px;
+      top: 41%;
+      margin-top: -50px;
+      text-align: center;
+      opacity: .6;
+      font-weight: bold;
+  }
 
+  sig.sig {
+    position: absolute;
+    left: 5%;
+    top: 1%;
+    width:50%
+    height:50%
+    text-align: center;
+
+  }
 
 }
